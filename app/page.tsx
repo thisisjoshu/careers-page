@@ -79,7 +79,7 @@ export default function CareersPage() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-8">Our Culture of Innovation</h2>
             <p className="text-base sm:text-xl mb-8 sm:mb-12 max-w-3xl mx-auto">
               At Our Telekom, we foster a culture of collaboration, creativity, and continuous improvement. 
-              Our diverse team of experts works together to push the boundaries of what's possible in telecommunications.
+              Our diverse team of experts works together to push the boundaries of what&apos;s possible in telecommunications.
             </p>
             <div className="flex justify-center">
               <Image 
