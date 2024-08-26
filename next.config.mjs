@@ -1,10 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enabling trailing slashes to ensure paths work correctly on GitHub Pages
-  trailingSlash: true,
-
-  // Optionally, if you need to set the base path for GitHub Pages
-  // basePath: '/<repository-name>',
+  basePath: "/careers-page",
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
