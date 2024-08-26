@@ -6,6 +6,7 @@ const nextConfig = {
   },
   assetPrefix: "/careers-page",
   basePath: "/careers-page",
+  distDir: "out",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
