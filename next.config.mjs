@@ -1,7 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: "/careers-page",
   basePath: "/careers-page",
-  output: "export", // <=== enables static exports
-  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
